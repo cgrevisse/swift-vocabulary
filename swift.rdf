@@ -1,0 +1,1582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#private">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#PrivateAccess"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">private</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Double">
+    <skos:related rdf:resource="http://dbpedia.org/page/Double-precision_floating-point_format"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Struct"/>
+    <skos:prefLabel xml:lang="en">Double</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID321"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#String">
+    <skos:related rdf:resource="http://dbpedia.org/page/String_%28computer_science%29"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Struct"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">String</skos:prefLabel>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Constant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Constant_%28computer_programming%29"/>
+    <skos:prefLabel xml:lang="en">Constant</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID310"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#throw">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html#ID509"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#ControlFlow"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <skos:prefLabel xml:lang="en">throw</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#ErrorHandling"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#UnownedReference">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html#ID54"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#ARC"/>
+    <skos:prefLabel xml:lang="en">Unowned Reference</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Inheritance">
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Class"/>
+    <skos:prefLabel xml:lang="en">Inheritance</skos:prefLabel>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Inheritance.html#inheritance"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Inheritance_%28object-oriented_programming%29"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Enumeration">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Enumerated_type"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#ValueType"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html#enumerations"/>
+    <skos:prefLabel xml:lang="en">Enumeration</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#catch">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">catch</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#DoCatch"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#DesignatedInitializer">
+    <skos:prefLabel xml:lang="en">Designated Initializer</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Initializer"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID217"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#PropertyRequirement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID269"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Protocol"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Property"/>
+    <skos:prefLabel xml:lang="en">Property Requirement</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#MethodRequirement">
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Protocol"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Method"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID270"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Method Requirement</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Abstract_type"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#public">
+    <skos:prefLabel xml:lang="en">public</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#PublicAccess"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#WhileLoop">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID124"/>
+    <skos:prefLabel xml:lang="en">While Loop</skos:prefLabel>
+    <skos:related rdf:resource="http://dbpedia.org/page/While_loop"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Loop"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#LabeledStatement">
+    <skos:related rdf:resource="http://dbpedia.org/page/Label_%28computer_science%29"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID141"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#break"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Labeled Statement</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#ControlFlow"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#continue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#TypeCheckOperator">
+    <skos:prefLabel xml:lang="en">Type Check Operator</skos:prefLabel>
+    <skos:related rdf:resource="http://dbpedia.org/page/Type_introspection"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Operator"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#TypeCasting"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/TypeCasting.html#ID340"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#internal">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#InternalAccess"/>
+    <skos:prefLabel xml:lang="en">internal</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#self">
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Method"/>
+    <skos:prefLabel xml:lang="en">self</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Instance"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Methods.html#ID238"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/This_%28computer_programming%29"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#RequiredInitializer">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID231"/>
+    <skos:prefLabel xml:lang="en">Required Initializer</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Initializer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Operator">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Operator</skos:prefLabel>
+    <skos:related rdf:resource="http://dbpedia.org/page/Operator_%28computer_programming%29"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#basic-operators"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#TypeCasting">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Type_conversion"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/TypeCasting.html#type-casting"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Type"/>
+    <skos:prefLabel xml:lang="en">Type Casting</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#OpenAccess">
+    <skos:prefLabel xml:lang="en">Open Access</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#AccessLevel"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Instance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Class"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Object_%28computer_science%29"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Instance</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Struct"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html#ID85"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#DefaultParameterValue">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Default Parameter Value</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Default_argument"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID169"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Parameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Optional">
+    <skos:prefLabel xml:lang="en">Optional</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Option_type"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Type"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID330"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#RangeOperator">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Range Operator</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Operator"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Range_%28computer_programming%29"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID73"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#ComparisonOperator">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Operator"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Relational_operator"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID70"/>
+    <skos:prefLabel xml:lang="en">Comparison Operator</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Function">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Functions.html"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Subroutine"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#ReferenceType"/>
+    <skos:prefLabel xml:lang="en">Function</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#AssociatedType">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#GenericType"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Generics.html#ID189"/>
+    <skos:prefLabel xml:lang="en">Associated Type</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Protocol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Attribute">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Attribute_%28computing%29"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/ReferenceManual/Attributes.html#attributes"/>
+    <skos:prefLabel xml:lang="en">Attribute</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift">
+    <dct:description>This is an SKOS-based vocabulary about the Swift programming language.</dct:description>
+    <dct:creator rdf:nodeID="ub1bL10C17"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:versionInfo>5.2/1.0.0</owl:versionInfo>
+    <rdfs:seeAlso rdf:resource="https://coast.uni.lu/alma/"/>
+    <dct:title>Swift Vocabulary</dct:title>
+    <owl:versionIRI rdf:resource="http://purl.org/lu/uni/alma/swift/5.2"/>
+    <dct:modified>2020-04-27</dct:modified>
+    <dct:created>2020-04-27</dct:created>
+    <dct:subject rdf:resource="http://dbpedia.org/page/Swift_%28programming_language%29"/>
+    <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#ForInLoop">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Foreach_loop"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Loop"/>
+    <skos:prefLabel xml:lang="en">For-In Loop</skos:prefLabel>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID121"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#EscapingClosure">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Escaping Closure</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Closures.html#ID546"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Closure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#StrongReference">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#ARC"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Strong Reference</skos:prefLabel>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html#ID49"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#TypeCastOperator">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Type Cast Operator</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#DownCasting"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Operator"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Initializer">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID205"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Enumeration"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Method"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Struct"/>
+    <skos:prefLabel xml:lang="en">Initializer</skos:prefLabel>
+    <skos:related rdf:resource="http://dbpedia.org/page/Constructor_%28object-oriented_programming%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#ProtocolExtension">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Trait_%28computer_programming%29"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Protocol Extension</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Protocol"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Extension"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID521"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#RecursiveEnumeration">
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Enumeration"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Recursive Enumeration</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html#ID536"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#some">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#OpaqueType"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <skos:prefLabel xml:lang="en">some</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#TypeAnnotation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Type Annotation</skos:prefLabel>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID312"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Collection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Collection_%28abstract_data_type%29"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Struct"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Collection</skos:prefLabel>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#ARC">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Automatic_Reference_Counting"/>
+    <skos:prefLabel xml:lang="en">Automatic Reference Counting</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html#automatic-reference-counting"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Deinitializer">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Deinitializer</skos:prefLabel>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Deinitialization.html#deinitialization"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Destructor_%28computer_programming%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#RawValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Enumeration"/>
+    <skos:prefLabel xml:lang="en">Raw Value</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html#ID149"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#IdentityOperator">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#ReferenceType"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Operator"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html#ID90"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Identity Operator</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Scheme">
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#TypeAlias"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#TypeInference"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#Extension"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#ForcedUnwrapping"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#DefaultPropertyValue"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#TypeCasting"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#Deinitializer"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#ControlFlow"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#MethodRequirement"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#Parameter"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#Type"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#OptionalChaining"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#ReturnValue"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#TypeConstraint"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#nil"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#Module"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#OptionalProtocolRequirement"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#StringInterpolation"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#WeakReference"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#AccessControl"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#InitializerDelegation"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#PropertyRequirement"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#ErrorHandling"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#RawValue"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#TypeAnnotation"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#AssociatedType"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#Generics"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#Inheritance"/>
+    <dct:title>Swift</dct:title>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#Instance"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#GenericWhereClause"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#Constant"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#StrongReference"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#DoCatch"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#Operator"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#CompilerControlStatement"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#PropertyWrapper"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#UnownedReference"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#OptionalBinding"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#Variable"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#Attribute"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#Overriding"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#ARC"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#Subclassing"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#PropertyObserver"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#ArgumentLabel"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#AssociatedValue"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#DefaultParameterValue"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#BaseClass"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#InitializerRequirement"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#Comment"/>
+    <skos:hasTopConcept rdf:resource="http://purl.org/lu/uni/alma/swift#Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#FilePrivateAccess">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#AccessLevel"/>
+    <skos:prefLabel xml:lang="en">File-private Access</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#final">
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Inheritance.html#ID202"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Overriding"/>
+    <skos:prefLabel xml:lang="en">final</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Overriding">
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Inheritance"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Method_overriding"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Inheritance.html#ID196"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Overriding</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#VariadicParameter">
+    <skos:prefLabel xml:lang="en">Variadic Parameter</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Variadic_function"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID171"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Parameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#continue">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Control_flow"/>
+    <skos:prefLabel xml:lang="en">continue</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#ControlFlow"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID136"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#ConditionalStatement">
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#ControlFlow"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Conditional Statement</skos:prefLabel>
+    <skos:related rdf:resource="http://dbpedia.org/page/Conditional_%28computer_programming%29"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID127"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#mutating">
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#ValueType"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Methods.html#ID239"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Instance"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Method"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">mutating</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#StringInterpolation">
+    <skos:related rdf:resource="http://dbpedia.org/page/String_interpolation"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html#ID292"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">String Interpolation</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#String"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Int">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Struct"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Integer_%28computer_science%29"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID317"/>
+    <skos:prefLabel xml:lang="en">Int</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#InitializerDelegation">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Initializer"/>
+    <skos:prefLabel xml:lang="en">Initializer Delegation</skos:prefLabel>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID215"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#AccessControl">
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/AccessControl.html#access-control"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Encapsulation_%28computer_programming%29"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Access Control</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#OptionalBinding">
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Optional"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID333"/>
+    <skos:prefLabel xml:lang="en">Optional Binding</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#If"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#super">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#BaseClass"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/ReferenceManual/Expressions.html#ID392"/>
+    <skos:prefLabel xml:lang="en">super</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#GenericWhereClause">
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#TypeConstraint"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#GenericType"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Generic Where Clause</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Generics.html#ID192"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#InitializerRequirement">
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Protocol"/>
+    <skos:prefLabel xml:lang="en">Initializer Requirement</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID272"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Initializer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Closure">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Closures.html"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#ReferenceType"/>
+    <skos:prefLabel xml:lang="en">Closure</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Closure_%28computer_programming%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#DefaultInitializer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Initializer"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID213"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Default Initializer</skos:prefLabel>
+    <skos:related rdf:resource="http://dbpedia.org/page/Default_constructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#AssignmentOperator">
+    <skos:related rdf:resource="http://dbpedia.org/page/Operator_%28computer_programming%29"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Operator"/>
+    <skos:prefLabel xml:lang="en">Assignment Operator</skos:prefLabel>
+    <skos:related rdf:resource="http://dbpedia.org/page/Assignment_%28computer_science%29"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID62"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Method">
+    <skos:prefLabel xml:lang="en">Method</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Class"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Enumeration"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Methods.html#methods"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Struct"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Function"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Method_%28computer_programming%29"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Autoclosure">
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Closure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Autoclosure</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Closures.html#ID543"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Any">
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/TypeCasting.html#ID342"/>
+    <skos:prefLabel xml:lang="en">Any</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#TypeCasting"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Type"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Dictionary">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID113"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Collection"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Associative_array"/>
+    <skos:prefLabel xml:lang="en">Dictionary</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#RepeatWhileLoop">
+    <skos:related rdf:resource="http://dbpedia.org/page/Do_while_loop"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Repeat-While Loop</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Loop"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID126"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#FailableInitializer">
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID224"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Initializer"/>
+    <skos:prefLabel xml:lang="en">Failable Initializer</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#NestedType">
+    <skos:prefLabel xml:lang="en">Nested Type</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Type"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/NestedTypes.html#nested-types"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#PrivateAccess">
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#AccessLevel"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Private Access</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#TypeProperty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID264"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Property"/>
+    <skos:prefLabel xml:lang="en">Type Property</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Class_variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#break">
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#ControlFlow"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Control_flow"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID137"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <skos:prefLabel xml:lang="en">break</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Type">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Data_type"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/ReferenceManual/Types.html#types"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Type</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Float">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Struct"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID321"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Float</skos:prefLabel>
+    <skos:related rdf:resource="http://dbpedia.org/page/Floating-point_arithmetic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#ControlFlow">
+    <skos:prefLabel xml:lang="en">Control Flow</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#control-flow"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Control_flow"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#BaseClass">
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Inheritance"/>
+    <skos:prefLabel xml:lang="en">Base Class</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Inheritance.html#ID194"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Superclass_%28computer_science%29"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#DownCasting">
+    <skos:prefLabel xml:lang="en">Downcasting</skos:prefLabel>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/TypeCasting.html#ID341"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#TypeCasting"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Downcasting"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Property">
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Properties.html#properties"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Struct"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Enumeration"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Property_%28programming%29"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Property</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#TrailingClosure">
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Closure"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Closures.html#ID102"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Trailing Closure</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Comment">
+    <skos:prefLabel xml:lang="en">Comment</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID315"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Comment_%28computer_programming%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Switch">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Switch</skos:prefLabel>
+    <skos:related rdf:resource="http://dbpedia.org/page/Switch_statement"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID129"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#ConditionalStatement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#override">
+    <skos:prefLabel xml:lang="en">override</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Overriding"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#StoredProperty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Stored Property</skos:prefLabel>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID255"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Property"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Field_%28computer_science%29"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#TypeInference">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID322"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Type"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Type_inference"/>
+    <skos:prefLabel xml:lang="en">Type Inference</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#where">
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID134"/>
+    <skos:prefLabel xml:lang="en">where</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#GenericWhereClause"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#deinit">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <skos:prefLabel xml:lang="en">deinit</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Deinitializer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#GenericType">
+    <skos:related rdf:resource="http://dbpedia.org/page/Generic_programming"/>
+    <skos:prefLabel xml:lang="en">Generic Type</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Type"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Generics.html#ID184"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Generics_in_Java"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Generics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#LazyStoredProperty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID257"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#StoredProperty"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Lazy Stored Property</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#ValueType">
+    <skos:prefLabel xml:lang="en">Value Type</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Type"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html#ID88"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Value_type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#convenience">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#ConvenienceInitializer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">convenience</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#ComputedProperty">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Property"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Property_%28programming%29"/>
+    <skos:prefLabel xml:lang="en">Computed Property</skos:prefLabel>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID259"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#NestedFunction">
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Function"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Nested Function</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Nested_function"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID178"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#DefaultPropertyValue">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Property"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID206"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Default Property Value</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Initializer"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#defer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html#ID514"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">defer</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#ErrorHandling"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#ErrorHandling">
+    <skos:related rdf:resource="http://dbpedia.org/page/Exception_handling"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Error Handling</skos:prefLabel>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html#error-handling"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#print">
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID314"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Function"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">print</skos:prefLabel>
+    <skos:related rdf:resource="http://dbpedia.org/page/Printf_format_string"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#OpaqueType">
+    <skos:prefLabel xml:lang="en">Opaque Type</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Type"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/OpaqueTypes.html#opaque-types"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#ReturnValue"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Array">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID107"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Array_data_type"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Collection"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Array</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Subscript">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Enumeration"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Class"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Subscripts.html#subscripts"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Struct"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#ComputedProperty"/>
+    <skos:prefLabel xml:lang="en">Subscript</skos:prefLabel>
+    <skos:related rdf:resource="http://dbpedia.org/page/Index_notation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Set">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Set_%28abstract_data_type%29"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID484"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Collection"/>
+    <skos:prefLabel xml:lang="en">Set</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Bool">
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID328"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Boolean_data_type"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Struct"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Boolean</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#TypeConstraint">
+    <skos:related rdf:resource="http://dbpedia.org/page/Bounded_quantification"/>
+    <skos:prefLabel xml:lang="en">Type Constraint</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Generics.html#ID186"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#GenericType"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#ClosureExpression">
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Closure"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Closures.html#ID95"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Closure Expression</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#func">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Function"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">func</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Protocol">
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Type"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Interface_%28Java%29"/>
+    <skos:prefLabel xml:lang="en">Protocol</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#protocols"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Protocol_%28object-oriented_programming%29"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#fallthrough">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">fallthrough</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID140"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Switch"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#ControlFlow"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Parameter">
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Function"/>
+    <skos:prefLabel xml:lang="en">Parameter</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID160"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Parameter_%28computer_programming%29"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#TypeMethod">
+    <skos:prefLabel xml:lang="en">Type Method</skos:prefLabel>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Methods.html#ID241"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Method"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#let">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Constant"/>
+    <skos:prefLabel xml:lang="en">let</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Subclassing">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Subclass_%28computer_science%29"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Inheritance.html#ID195"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Inheritance"/>
+    <skos:prefLabel xml:lang="en">Subclassing</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#InternalAccess">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Internal Access</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#AccessLevel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#PublicAccess">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Public Access</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#AccessLevel"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#weak">
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#WeakReference"/>
+    <skos:prefLabel xml:lang="en">weak</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#unowned">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#UnownedReference"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">unowned</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#WeakReference">
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html#ID53"/>
+    <skos:prefLabel xml:lang="en">Weak Reference</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Weak_reference"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#ARC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#fileprivate">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">fileprivate</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#FilePrivateAccess"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#ForcedUnwrapping">
+    <skos:prefLabel xml:lang="en">Forced Unwrapping</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Optional"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID332"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#InstanceMethod">
+    <skos:prefLabel xml:lang="en">Instance Method</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Methods.html#ID235"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Method"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#CompoundAssignmentOperator">
+    <skos:prefLabel xml:lang="en">Compound Assignment Operator</skos:prefLabel>
+    <skos:related rdf:resource="http://dbpedia.org/page/Augmented_assignment"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#AssignmentOperator"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html#ID44"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#throws">
+    <skos:prefLabel xml:lang="en">throws</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#ErrorHandling"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html#ID510"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Function"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#enum">
+    <skos:prefLabel xml:lang="en">enum</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Enumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Loop">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Loop</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#ControlFlow"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Control_flow"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#try">
+    <skos:prefLabel xml:lang="en">try</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#ErrorHandling"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Module">
+    <skos:prefLabel xml:lang="en">Module</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/AccessControl.html#ID4"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#AccessControl"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Modular_programming"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#inout">
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#InOutParameter"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">inout</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#BitwiseOperator">
+    <skos:related rdf:resource="http://dbpedia.org/page/Bitwise_operation"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html#ID29"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Operator"/>
+    <skos:prefLabel xml:lang="en">Bitwise Operator</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#TypeAlias">
+    <skos:related rdf:resource="http://dbpedia.org/page/Typedef"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Type Alias</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Type"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID327"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#return">
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID160"/>
+    <skos:prefLabel xml:lang="en">return</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#ReturnValue"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Return_statement"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#ControlFlow"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#required">
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#RequiredInitializer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">required</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#FunctionType">
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Type"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID174"/>
+    <skos:prefLabel xml:lang="en">Function Type</skos:prefLabel>
+    <skos:related rdf:resource="http://dbpedia.org/page/Function_type"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Function"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#TernaryConditionalOperator">
+    <skos:prefLabel xml:lang="en">Ternary Conditional Operator</skos:prefLabel>
+    <skos:related rdf:resource="http://dbpedia.org/page/Ternary_operation"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID71"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Operator"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Elvis_operator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#AnyObject">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#TypeCasting"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Type"/>
+    <skos:prefLabel xml:lang="en">AnyObject</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/TypeCasting.html#ID342"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Class">
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#ReferenceType"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Class_%28computer_programming%29"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Class</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html#structures-and-classes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#do">
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#DoCatch"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">do</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#If">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#ConditionalStatement"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Control_flow"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Conditional_%28computer_programming%29"/>
+    <skos:prefLabel xml:lang="en">If</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID128"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#OptionalProtocolRequirement">
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID284"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#PropertyRequirement"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#MethodRequirement"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Protocol"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Optional Protocol Requirement</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#PropertyWrapper">
+    <skos:prefLabel xml:lang="en">Property Wrapper</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Property"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID617"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Tuple">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Tuple"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Tuple</skos:prefLabel>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID329"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#ValueType"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Extension">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Class"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Extensions.html#extensions"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Enumeration"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Protocol"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Struct"/>
+    <skos:prefLabel xml:lang="en">Extension</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Guard">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#ConditionalStatement"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID525"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Guard_%28computer_science%29"/>
+    <skos:prefLabel xml:lang="en">guard Statement</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#ReferenceType">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html#ID89"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Reference_type"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Reference Type</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Type"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#var">
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Variable"/>
+    <skos:prefLabel xml:lang="en">var</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#ConvenienceInitializer">
+    <skos:prefLabel xml:lang="en">Convenience Initializer</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Initializer"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID217"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#AccessLevel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Access Level</skos:prefLabel>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/AccessControl.html#ID5"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Access_level"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#AccessControl"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#case">
+    <skos:prefLabel xml:lang="en">case</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Switch"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Enumeration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#GenericFunction">
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Generics"/>
+    <skos:prefLabel xml:lang="en">Generic Function</skos:prefLabel>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Generics.html#ID181"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Function"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Generic_function"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#NilCoalescingOperator">
+    <skos:prefLabel xml:lang="en">Nil-Coalescing Operator</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Optional"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Operator"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Null_coalescing_operator"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID72"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#InOutParameter">
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID173"/>
+    <skos:prefLabel xml:lang="en">In-Out Parameter</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Parameter"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Evaluation_strategy"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#OperatorMethod">
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Method"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Operator"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html#ID42"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Operator Method</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#OverflowOperator">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Overflow Operator</skos:prefLabel>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html#ID37"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Operator"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#ReturnValue">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID160"/>
+    <skos:prefLabel xml:lang="en">Return Value</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Return_type"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Function"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#LogicalOperator">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Operator"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID76"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Operator_%28computer_programming%29"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:prefLabel xml:lang="en">Logical Operator</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#init">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Initializer"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">init</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#TypeSubscript">
+    <skos:prefLabel xml:lang="en">Type Subscript</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Subscripts.html#ID609"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Subscript"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Keyword">
+    <skos:prefLabel xml:lang="en">Keyword</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/ReferenceManual/LexicalStructure.html#ID413"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Keyword_%28computer_programming%29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#ArgumentLabel">
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID166"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Parameter"/>
+    <skos:prefLabel xml:lang="en">Argument Label</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#OptionalChaining">
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Optional"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/OptionalChaining.html"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Optional_chaining_operator"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Optional Chaining</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#PropertyObserver">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Property Observer</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID262"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Struct">
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#ValueType"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html#structures-and-classes"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Record_%28computer_science%29"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Struct</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#AssociatedValue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Enumeration"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Associated Value</skos:prefLabel>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html#ID148"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#TypeParameter">
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Parameter"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/TypeParameter"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Generics.html#ID182"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#GenericType"/>
+    <skos:prefLabel xml:lang="en">Type Parameter</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#ArithmeticOperator">
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Operator"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Operator_%28computer_programming%29"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID63"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Arithmetic Operator</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Variable">
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID310"/>
+    <skos:prefLabel xml:lang="en">Variable</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Variable_%28computer_science%29"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#Generics">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/Generics.html#generics"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:prefLabel xml:lang="en">Generics</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:related rdf:resource="http://dbpedia.org/page/Generic_programming"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#CompilerControlStatement">
+    <skos:related rdf:resource="http://dbpedia.org/page/Directive_%28programming%29"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Compiler Control Statement</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#If"/>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/ReferenceManual/Statements.html#ID538"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL10C17">
+    <foaf:mbox rdf:resource="file:///Users/christian/Dropbox/Uni.lu/PhD/Research/Swift%20Vocabulary/christian.grevisse@uni.lu"/>
+    <foaf:name>Christian GREVISSE</foaf:name>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#DoCatch">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#ErrorHandling"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Do-Catch</skos:prefLabel>
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html#ID541"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#is">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">is</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#TypeCheckOperator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#nil">
+    <skos:related rdf:resource="http://dbpedia.org/page/Null_pointer"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">nil</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Optional"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#import">
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Keyword"/>
+    <skos:prefLabel xml:lang="en">import</skos:prefLabel>
+    <skos:related rdf:resource="http://purl.org/lu/uni/alma/swift#Module"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/lu/uni/alma/swift#CustomOperator">
+    <skos:definition rdf:resource="https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html#ID46"/>
+    <skos:broader rdf:resource="http://purl.org/lu/uni/alma/swift#Operator"/>
+    <skos:prefLabel xml:lang="en">Custom Operator</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:inScheme rdf:resource="http://purl.org/lu/uni/alma/swift#Scheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+</rdf:RDF>
